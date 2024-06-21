@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="main-form">
+        <button id="view-submissions">View Submissions</button>
+        <button id="create-submission">Create New Submission</button>
+    </div>
+
+    <div id="view-form" class="hidden">
+        <div id="submission-details"></div>
+        <button id="previous">Previous</button>
+        <button id="next">Next</button>
+        <button id="back-from-view">Back</button>
+    </div>
+
+    <div id="create-form" class="hidden">
+        <label for="name">Name:</label>
+        <input type="text" id="name">
+        
+        <label for="email">Email:</label>
+        <input type="text" id="email">
+        
+        <label for="phone">Phone Number:</label>
+        <input type="text" id="phone">
+        
+        <label for="github">GitHub Repo Link:</label>
+        <input type="text" id="github">
+        
+        <div id="stopwatch">00:00:00</div>
+        <button id="toggle-stopwatch">Start/Stop Stopwatch</button>
+        
+        <button id="submit">Submit</button>
+        <button id="back-from-create">Back</button>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
